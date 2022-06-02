@@ -1,0 +1,8 @@
+HTML
+	Print Window 
+	<button onclick="window.print()">Print this page</button>
+
+Grammer Check https://writer.com/grammar-checker/
+Text Formatting
+
+Booststrap Work with Internet? 

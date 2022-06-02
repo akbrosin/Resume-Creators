@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+/* Menu Bar Style */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+li{
+    float: left;
+    border-right: 1px solid #ffffff;
+}
+a{
+    display: block;
+    padding: 0 50px;
+    color: #ffff;
+    text-decoration: none;
+}
+a:hover {
+    background-color:  rgb(255, 255, 255);
+}
+.active a {
+    background-color: rgb(102, 126, 234);
+}
+
+/* Blog Font Size  */
+.BlogF{
+    font-size: x-large;
+}
+
+/* Footer Design Fixed */
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: left;
+    margin: 6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+ }
+
+ .ff{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+ }
+
+ table, th, td {
+    align-self: center;
+    border:5px solid rgb(255, 255, 255);
+    margin-top: 25px;
+ }
+
+
+ /* COntinue Button Design */
+ .Continue{
+    background-color: blue;
+    text-align: center;
+    padding: 5px;
+ }
+
+ .Continue:hover{
+    background-color: rgb(0, 151, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
+ }

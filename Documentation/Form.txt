@@ -1,0 +1,85 @@
+<!-- Data Entry Start Here -->
+   <div class="container">
+       <div class="row">
+           <div class="col-sm">
+	
+		    <!-- Left Column Starts Here -->
+                    <h4>Basic Details</h4>
+                    <hr/>
+                    <!-- Left Column -->
+                    <!-- Enter Name -->
+                    <div class="form-group">
+                      <label for="nameF">Name</label>
+                      <input type="text" id="nameF" placeholder="Your Name Here" class="form-control">
+                    </div>
+
+                    <!-- Enter Number -->
+                    <div class="form-group">
+                      <label for="contactN">Contact</label>
+                      <input type="text" id="contactN" placeholder="Contact Number" class="form-control">
+                    </div>
+
+                    <!-- Enter Address -->
+                    <div class="form-group">
+                      <label for="AddressF">Address</label>
+                      <textarea type="text" id="AddressF" placeholder="Full Address" class="form-control"></textarea>
+                    </div>
+
+                    <!-- Social Link Paragraph -->
+                    <p class="text-secondary my-3"><b>Social Media Links</b></p>
+
+                     <!-- Facebook -->
+                     <div class="form-group">
+                      <label for="fbF">Facebook</label>
+                      <input type="text" id="fbF" placeholder="Facebook Profile" class="form-control">
+                    </div>
+
+                     <!-- Insragram -->
+                     <div class="form-group">
+                      <label for="inF">Instagrm</label>
+                      <input type="text" id="inF" placeholder="Instagram Profle" class="form-control">
+                    </div>
+
+                     <!-- Linkedin -->
+                     <div class="form-group">
+                      <label for="liF">Linkedin</label>
+                      <input type="text" id="liF" placeholder="Linkedin" class="form-control">
+                    </div>
+                  </div>
+                <div class="col-sm">
+
+		    <!-- Right Column Starts Here -->
+
+                    <h4>Advance Details</h4>
+                     <hr/> 
+                       <!-- Enter Objective -->
+                        <div class="form-group">
+                        <label for="objF">Objective</label>
+                        <textarea type="text" id="objF" placeholder="Career Objective" class="form-control"  rows="3"></textarea>
+                       </div> 
+
+                       <!-- Enter Experience --> 
+
+                       <div class="form-group">
+                        <label for="ExpF">Experience</label>
+                        <textarea type="text" id="ExpF" placeholder="Experience" class="form-control"  rows="3"></textarea>
+                       </div>                       
+                        <div class="container">
+                          <button class="btn btn-primary btn-sm my-3">Add Experience</button>
+                        </div>
+
+                       <!-- Enter Qualification -->
+
+                       <div class="form-group">
+                        <label for="qfF">Quailications</label>
+                        <textarea type="text" id="qfF" placeholder="Quailications" class="form-control"  rows="3"></textarea>
+                       </div>                       
+                        <div class="container">
+                          <button class="btn btn-primary btn-sm my-3">Add Quailications</button>
+                        </div>
+
+		    <!-- Right Column ends Here -->
+           </div>
+       </div>
+   </div>
+<!-- Data Entry Ends Here -->
